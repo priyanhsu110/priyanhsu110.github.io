@@ -1,0 +1,46 @@
+<DOCTYPE! HTML>
+  <html lang=en>
+  <head>
+ 	<style>
+		body{background-image:url('https://i.redd.it/4x2e9aqmi2951.jpg');
+			background-attachment:no-attachment;
+			background-size:100% 65%;
+			background-repeat:no-repeat;}
+		body{background-color:black;}
+		table{background-color:#D2B4DE; opacity:0.8;}
+	</style>
+	<title>upload</title>
+  <body>
+	<center><form><table border=0px cellpadding=10px cellspacing=10px>	
+		<tr><td><label for="na">
+		Enter Your Name<font color="red">*</font>:
+		</label></td>
+			<td><input type="text" name="nam_a" id="na" required placeholder="First Name" autofocus></td>
+			<td><input type="text" name="nam_c" required placeholder="Last Name"></td></tr>	
+		
+
+		<tr><td><label for="order">
+		Anime You Want to upload:</label></td>
+			<td><textarea id="order" rows=3 col=50></textarea></td></tr>
+		
+		<tr><td><label for="ani">
+		Insert Anime:
+		</label></td>
+			<td><input type="file" name="vid" id="ani" accept="video/*"></td></tr>
+		
+		<tr><td><label for="no">
+			Mobile Number<font color="red">*</font>
+			</label></td>
+				<td><input type="tel" name="num" id="no" required pattern="[0-9]{10}" placeholder="0123456789"></td></tr>
+		
+		
+		<tr><td><label for="em">
+			e-mail<font color="red">*</font></label></td>
+				<td><input type="email" name="ema" id="em" required placeholder="abc@gmail.com"></td></tr>
+
+		<tr><td><input type="submit" name="sub"></td>
+
+		<td><input type="reset" name="res" onclick="alert('Reset is selected')"></td></tr>
+	</table></center></form>
+  </body>
+  </html
